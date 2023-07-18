@@ -1,0 +1,120 @@
+
+/*seudo elementos-centrar pagina*/
+*
+
+*::after 
+*::before{ box-sizing: border-box;
+            margin: 0;
+            padding: 0;    } 
+
+/*imagen-logo*/
+.logo-principal {display: flex;
+    justify-content: center;
+    border: solid black 2px;
+    background-color:grey;
+    min-height: 120px;
+    min-width: 120px;
+    
+}
+.titulo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:grey;
+    color: blue;
+    font-style: italic;
+    height: 50px;
+    padding-top:  10px; ;
+    margin: 1px;
+    
+}
+/* imagen-cachorros*/
+img{
+    max-width: 100%;
+    height: auto;
+
+}
+/*class=navegacion*/
+.nav_conteiner a[href]{
+    font-size: 25px;
+    color:blue;
+}
+.guiaprincipal{
+    display: flex;
+    font-style: italic;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: grey;
+    list-style: none;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    }
+
+
+.figura{ display: flex;
+    background-color:grey;
+    margin: 0;
+    padding: 0;
+    color: blue;
+    font-style: italic;}
+hr{
+    font-size: 2px color black;
+
+}
+
+
+.seccion2{
+    display: flex;
+    list-style: none;    
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-around;
+    column-gap: 40px;
+    background-color: grey;
+    color: blue;
+    font-size: x-large;
+    margin: 0%;
+    }
+.div_clase{
+    display: flex;
+    column-gap: 30px;
+    justify-content: space-around;
+    background-color: grey;
+}
+
+
+.especialista{display: flex;
+    height: 30px;
+    width: 30px;
+    justify-content: center;
+    font-size: 30px;
+    }
+
+.container{
+    column-count: 3;
+  column-gap: 40px;
+  column-rule-width: 5px;
+  column-rule-style: dotted;
+  column-rule-color:blue;
+background-color:grey;
+color:blue;
+font-size: large;
+margin: 0;
+
+}    
+
+.footer{display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+    gap: 60px;
+    color:blue;
+    background-color: grey;
+}
+.contacto{
+    display: flex;
+    justify-content: center;
+}
+

@@ -1,0 +1,74 @@
+*
+*::after
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-width: 100px;
+   min-height: 100px;
+    background-image: url("logo-principal/mcat-banner-mascotas.png");
+ 
+    
+
+}
+.alimentos{
+    display: flex;
+    min-height: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    margin-bottom: 15px;
+    margin: top 15px; ;
+    color: blue;
+    font-style: italic;
+    
+}
+.inicio {display: inline-block;
+    padding-top: 350px;
+    font-size: larger;
+    flex-direction: column;
+    align-content: flex-end;
+    
+}
+.container  {
+    display:flex ;
+    padding: 20px;
+    gap: 40px;
+    color: blue;
+    flex-direction: row;
+    justify-content: center;
+    font-size: large;
+
+}
+.precios{
+    display: inline-block;
+    margin: 0;
+    height: 30px;
+    background-color: grey;
+    justify-content: end;
+    padding: 5px;
+    font-style: oblique;
+    border-radius: 5px;
+    
+    
+ }
+ .calidad{
+    display: inline-block;
+    margin: 0;
+    height: 30px;
+    padding: 5px;
+    background-color: grey;
+    font-style: italic;
+    border-radius: 5px;
+ }
+ .envios{
+    display: inline-block;
+    margin: 0;
+    height:30px ;
+    padding: 5px;
+    background-color: grey;
+    font-style: italic;
+    border-radius: 5px;
+ }
